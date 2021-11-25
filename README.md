@@ -38,3 +38,7 @@
 ![Image alt](https://github.com/black20lion/Images/blob/main/LinkListTable.png)
 
 				Таблица 2. Время работы java.util.LinkedList для основных операций
+				
+![Image alt](https://github.com/black20lion/Images/blob/main/FirstGraph.png)
+				
+	Рисунок 1. Сравнение производительности MyLinkedList и java.util.LinkedList на операции добавления 
