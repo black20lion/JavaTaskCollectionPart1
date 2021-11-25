@@ -41,4 +41,4 @@
 				
 ![Image alt](https://github.com/black20lion/Images/blob/main/FirstGraph.png)
 				
-	Рисунок 1. Сравнение производительности MyLinkedList и java.util.LinkedList на операции добавления 
+		Рисунок 1. Сравнение производительности MyLinkedList и java.util.LinkedList на операции добавления 
