@@ -48,3 +48,13 @@
 
 		Рисунок 2. Сравнение производительности MyLinkedList и java.util.LinkedList на операции вставки в середину
 График выше показывает, что время добавления элемента в середину связного списка (поиск по индексу) увеличивается с количеством элементов в списке. В стандартной реализации график напоминает логарифмический, в собственной реализации - линейный. Худшее время поиска по индексу для связного списка действительно - O(n).
+
+![Image alt](https://github.com/black20lion/Images/blob/main/Graph3.png)
+
+Рисунок 3. Сравнение производительности MyLinkedList и java.util.LinkedList на операции вставки в середину
+![Image alt](https://github.com/black20lion/Images/blob/main/Graph4.png)
+
+Рисунок 4. Сравнение производительности MyLinkedList и java.util.LinkedList на операции вставки в середину
+![Image alt](https://github.com/black20lion/Images/blob/main/Graph5.png)
+
+Рисунок 5. Сравнение производительности MyLinkedList и java.util.LinkedList на операции вставки в середину
