@@ -34,3 +34,7 @@
 ![Image alt](https://github.com/black20lion/Images/blob/main/MyLinkListTable.png)
 
 					Таблица 1. Время работы MyLinkedList для основных операций
+					
+![Image alt](https://github.com/black20lion/Images/blob/main/LinkListTable.png)
+
+				Таблица 2. Время работы java.util.LinkedList для основных операций
