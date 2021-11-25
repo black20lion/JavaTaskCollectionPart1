@@ -55,8 +55,8 @@
 		
 ![Image alt](https://github.com/black20lion/Images/blob/main/Graph4.png)
 
-		Рисунок 4. Сравнение производительности MyLinkedList и java.util.LinkedList на операции удаления первого элемента
+	Рисунок 4. Сравнение производительности MyLinkedList и java.util.LinkedList на операции удаления первого элемента
 		
 ![Image alt](https://github.com/black20lion/Images/blob/main/Graph5.png)
 
-		Рисунок 5. Сравнение производительности MyLinkedList и java.util.LinkedList на операции удаления последнего элемента
+	Рисунок 5. Сравнение производительности MyLinkedList и java.util.LinkedList на операции удаления последнего элемента
