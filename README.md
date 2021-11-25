@@ -51,10 +51,12 @@
 
 ![Image alt](https://github.com/black20lion/Images/blob/main/Graph3.png)
 
-Рисунок 3. Сравнение производительности MyLinkedList и java.util.LinkedList на операции вставки в середину
+		Рисунок 3. Сравнение производительности MyLinkedList и java.util.LinkedList на операции вставки в начало
+		
 ![Image alt](https://github.com/black20lion/Images/blob/main/Graph4.png)
 
-Рисунок 4. Сравнение производительности MyLinkedList и java.util.LinkedList на операции вставки в середину
+		Рисунок 4. Сравнение производительности MyLinkedList и java.util.LinkedList на операции удаления первого элемента
+		
 ![Image alt](https://github.com/black20lion/Images/blob/main/Graph5.png)
 
-Рисунок 5. Сравнение производительности MyLinkedList и java.util.LinkedList на операции вставки в середину
+		Рисунок 5. Сравнение производительности MyLinkedList и java.util.LinkedList на операции удаления последнего элемента
