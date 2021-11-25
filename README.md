@@ -33,4 +33,4 @@
 
 ![Image alt](https://github.com/black20lion/Images/blob/main/MyLinkListTable.png)
 
-				Таблица 1. Время работы MyLinkedList для основных операций
+					Таблица 1. Время работы MyLinkedList для основных операций
