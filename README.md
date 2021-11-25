@@ -32,4 +32,5 @@
 всех основных операций, что говорит о том, что структура данных была реализована верно.
 
 ![Image alt](https://github.com/black20lion/Images/blob/main/MyLinkListTable.png)
+
 			Таблица 1. Время работы MyLinkedList для основных операций
