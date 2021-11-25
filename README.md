@@ -41,5 +41,9 @@
 				
 ![Image alt](https://github.com/black20lion/Images/blob/main/FirstGraph.png)
 				
-		Рисунок 1. Сравнение производительности MyLinkedList и java.util.LinkedList на операции добавления 
+		Рисунок 1. Сравнение производительности MyLinkedList и java.util.LinkedList на операции добавления
 Как видно из графика выше, время выполнения добавления в конец растет линейно в зависимости от числа элементов в обоих связных списках.
+
+![Image alt](https://github.com/black20lion/Images/blob/main/Graph2.png)
+
+		Рисунок 2. Сравнение производительности MyLinkedList и java.util.LinkedList на операции вставки в середину
