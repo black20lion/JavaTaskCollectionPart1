@@ -22,7 +22,7 @@
 для основных операций. 
 
 
-			Часть 1. java.util.Linkedlist и собственный лист
+					Часть 1. java.util.Linkedlist и собственный лист
 
 В процессе работы мной был описан собственный класс LinkedList, реализованы
 основные методы. Мой LinkedList оказался медленнее стандартного,
@@ -33,4 +33,4 @@
 
 ![Image alt](https://github.com/black20lion/Images/blob/main/MyLinkListTable.png)
 
-			Таблица 1. Время работы MyLinkedList для основных операций
+				Таблица 1. Время работы MyLinkedList для основных операций
