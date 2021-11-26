@@ -100,13 +100,13 @@
 							
 Данная часть работы посвящена сравнению производительности HashSet, LinkedHashSet и TreeSet. Так как данные структуры данных не индексированы численно (кроме LinkedHashSet), по времени вставки элемента в разные части коллекции (начало, середина, конец) сравнить их невозможно. Поэтому сравниваться они будут только на операциях добавления и удаления.
 
-				![Image alt](https://github.com/black20lion/Images/blob/main/HashSetTable.png)
+![Image alt](https://github.com/black20lion/Images/blob/main/HashSetTable.png)
 
 						Таблица 4. Время работы HashSet для основных операций
-				![Image alt](https://github.com/black20lion/Images/blob/main/LinkedHashSetTable.png)
+![Image alt](https://github.com/black20lion/Images/blob/main/LinkedHashSetTable.png)
 
 						Таблица 5. Время работы LinkedHashSet для основных операций
-				![Image alt](https://github.com/black20lion/Images/blob/main/TreeSetTable.png)
+![Image alt](https://github.com/black20lion/Images/blob/main/TreeSetTable.png)
 
 						Таблица 6. Время работы TreeSet для основных операций
 
