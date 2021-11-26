@@ -110,7 +110,7 @@
 
 						Таблица 6. Время работы TreeSet для основных операций
 						
-![Image alt](https://github.com/black20lion/Images/blob/main/Graph410.png)
+![Image alt](https://github.com/black20lion/Images/blob/main/Graph10.png)
 
 		Рисунок 13. Сравнение производительности HashSet, LinkedHashSet и TreeSet на операции добавления
 			
