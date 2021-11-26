@@ -70,4 +70,4 @@
 
 ![Image alt](https://github.com/black20lion/Images/blob/main/Table3.png)
 
-				Таблица 3. Время работы ArrayList для основных операций
+					Таблица 3. Время работы ArrayList для основных операций
