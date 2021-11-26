@@ -70,4 +70,28 @@
 
 ![Image alt](https://github.com/black20lion/Images/blob/main/Table3.png)
 
+
 					Таблица 3. Время работы ArrayList для основных операций
+![Image alt](https://github.com/black20lion/Images/blob/main/ArrayGraph1.png)
+
+	Рисунок 7. Сравнение производительности LinkedList и ArrayList на операции добавления
+	
+![Image alt](https://github.com/black20lion/Images/blob/main/ArrayGraph2.png)
+
+	Рисунок 8. Сравнение производительности LinkedList и ArrayList на операции на операции вставки в середину
+	
+![Image alt](https://github.com/black20lion/Images/blob/main/ArrayGraph3.png)
+
+	Рисунок 9. Сравнение производительности LinkedList и ArrayList на операции вставки в начало
+	
+![Image alt](https://github.com/black20lion/Images/blob/main/ArrayGraph4.png)
+
+	Рисунок 10. Сравнение производительности LinkedList и ArrayList на операции удаления первого элемента
+	
+![Image alt](https://github.com/black20lion/Images/blob/main/ArrayGraph5.png)
+
+	Рисунок 11. Сравнение производительности LinkedList и ArrayList на операции удаления последнего элемента
+	
+![Image alt](https://github.com/black20lion/Images/blob/main/ArrayGraph6.png)
+
+	Рисунок 12. Сравнение производительности LinkedList и ArrayList на операции удаления элемента из середины
