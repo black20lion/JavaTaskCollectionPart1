@@ -66,7 +66,7 @@
 График выше показывает, что удаление элемента из середины (по индексу), так же, как и вставка в середину, выполняется в худшем случае за линейное время.
 
 						Часть 2. Linkedlist и ArrayList
-Данная часть работы была посвящена сравнению производительности LinkedList и ArrayList и оказалась наименее предсказуемой, т.к. на практике ArrayList оказался быстрее LinkedList практически на всех операциях.
+Данная часть работы была посвящена сравнению производительности LinkedList и ArrayList.
 
 ![Image alt](https://github.com/black20lion/Images/blob/main/Table3.png)
 
@@ -74,24 +74,25 @@
 					Таблица 3. Время работы ArrayList для основных операций
 ![Image alt](https://github.com/black20lion/Images/blob/main/ArrayGraph1.png)
 
-	Рисунок 7. Сравнение производительности LinkedList и ArrayList на операции добавления
+			Рисунок 7. Сравнение производительности LinkedList и ArrayList на операции добавления
 	
 ![Image alt](https://github.com/black20lion/Images/blob/main/ArrayGraph2.png)
 
-	Рисунок 8. Сравнение производительности LinkedList и ArrayList на операции на операции вставки в середину
+			Рисунок 8. Сравнение производительности LinkedList и ArrayList на операции на операции вставки в середину
 	
 ![Image alt](https://github.com/black20lion/Images/blob/main/ArrayGraph3.png)
-
-	Рисунок 9. Сравнение производительности LinkedList и ArrayList на операции вставки в начало
+	
+			Рисунок 9. Сравнение производительности LinkedList и ArrayList на операции вставки в начало
 	
 ![Image alt](https://github.com/black20lion/Images/blob/main/ArrayGraph4.png)
 
-	Рисунок 10. Сравнение производительности LinkedList и ArrayList на операции удаления первого элемента
+			Рисунок 10. Сравнение производительности LinkedList и ArrayList на операции удаления первого элемента
 	
 ![Image alt](https://github.com/black20lion/Images/blob/main/ArrayGraph5.png)
 
-	Рисунок 11. Сравнение производительности LinkedList и ArrayList на операции удаления последнего элемента
+		Рисунок 11. Сравнение производительности LinkedList и ArrayList на операции удаления последнего элемента
 	
 ![Image alt](https://github.com/black20lion/Images/blob/main/ArrayGraph6.png)
 
-	Рисунок 12. Сравнение производительности LinkedList и ArrayList на операции удаления элемента из середины
+		Рисунок 12. Сравнение производительности LinkedList и ArrayList на операции удаления элемента из середины
+На основании графиков можно установить, что доступ к крайним элементам быстрее у LinkedList, однако в добавлении и удалении центрального элемента быстрее оказался ArrayList, т.к. данная операция включает в себя поиск по индексу, а перекопирование массива в стандартной реализации работает довольно быстро.
