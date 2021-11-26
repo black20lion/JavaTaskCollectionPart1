@@ -2,9 +2,7 @@ package ru.mycompany.main;
 
 import ru.mycompany.mylinkedlist.MyLinkedList;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.Random;
+import java.util.*;
 
 public class MainClass {
     public static void main(String[] args) {
@@ -23,7 +21,7 @@ public class MainClass {
         myLinkedList1.add(e2);
         myLinkedList1.add(e3);
 
-        for (Employee employee: myLinkedList1) {
+        for (Employee employee : myLinkedList1) {
             System.out.println(employee);
         }
 
@@ -44,14 +42,14 @@ public class MainClass {
 
         System.out.println("==============================");
 
-        for (Object o: myLinkedList1.toArray()) {
+        for (Object o : myLinkedList1.toArray()) {
             System.out.println(o);
         }
 
         System.out.println("==============================");
 
         Employee[] eArray = new Employee[3];
-        for (Employee e: myLinkedList1.<Employee>toArray(eArray)) {
+        for (Employee e : myLinkedList1.<Employee>toArray(eArray)) {
             System.out.println(e.getName());
         }
 
@@ -85,16 +83,41 @@ public class MainClass {
         System.out.println("==============================");
 
 //        LinkedList<Employee> linkedList = new LinkedList<>();
-//        TestUtilLists linkListTest = new TestUtilLists(linkedList, 1000000); *For different count of Elements*
+//        TestUtilLists linkListTest = new TestUtilLists(linkedList, 1000000); *For different number of Elements*
 //        System.out.println(linkListTest.timeRemoveFromMiddle()); *And other operations*
 
 //        ArrayList<Employee> arrayList = new ArrayList<>();
-//        TestUtilLists arrayListTest = new TestUtilLists(arrayList, 1000000); *For different count of Elements*
+//        TestUtilLists arrayListTest = new TestUtilLists(arrayList, 1000000); *For different number of Elements*
 //        System.out.println(arrayListTest.timeRemoveFromMiddle()); *And other operations*
 
-        MyLinkedList<Employee> myLinkedList = new MyLinkedList<>();
-        TestMyLinkList myLinkListTest = new TestMyLinkList(myLinkedList, 1000000);
-        System.out.println(myLinkListTest.timeRemoveFromEnd());
+//        MyLinkedList<Employee> myLinkedList = new MyLinkedList<>();
+//        TestMyLinkList myLinkListTest = new TestMyLinkList(myLinkedList, 1000000); *For different number of Elements*
+//        System.out.println(myLinkListTest.timeRemoveFromMiddle()); *And other operations*
+
+//        HashSet<Employee> hashSet = new HashSet<>();
+//        TestUtilSets hashSetTest = new TestUtilSets(hashSet, 1000000); *For different number of Elements*
+//        System.out.println(hashSetTest.timeRemove()); *And other operations*
+
+//        LinkedHashSet<Employee> linkedHashSet = new LinkedHashSet<>();
+//        TestUtilSets linkedHashSetTest = new TestUtilSets(linkedHashSet, 1000000); *For different number of Elements*
+//        System.out.println(linkHashSetTest.timeRemove()); *And other operations*
+
+//        TreeSet<Employee> treeSet = new TreeSet<>();
+//        TestUtilSets treeSetTest = new TestUtilSets(treeSet, 1000000); *For different number of Elements*
+//        System.out.println(treeSetTest.timeRemove()); *And other operations*
+
+//        HashMap<Employee, Integer> hashMap = new HashMap<>();
+//        TestUtilMaps testHashMap = new TestUtilMaps(hashMap, 1000000); *For different number of Elements*
+//        System.out.println(testHashMap.timeRemove()); *And other operations*
+
+//        LinkedHashMap<Employee, Integer> linkedHashMap = new LinkedHashMap<>();
+//        TestUtilMaps testLinkedHashMap = new TestUtilMaps(linkedHashMap, 1000000); *For different number of Elements*
+//        System.out.println(testLinkedHashMap.timeRemove()); *And other operations*
+
+        TreeMap<Employee, Integer> treeMap = new TreeMap<>();
+        TestUtilMaps testTreeMap = new TestUtilMaps(treeMap, 1000000);
+        System.out.println(testTreeMap.timeRemove());
+
 
     }
 }
