@@ -70,7 +70,6 @@
 
 ![Image alt](https://github.com/black20lion/Images/blob/main/Table3.png)
 
-
 					Таблица 3. Время работы ArrayList для основных операций
 ![Image alt](https://github.com/black20lion/Images/blob/main/ArrayGraph1.png)
 
@@ -96,3 +95,16 @@
 
 		Рисунок 12. Сравнение производительности LinkedList и ArrayList на операции удаления элемента из середины
 На основании графиков можно установить, что доступ к крайним элементам быстрее у LinkedList, однако в добавлении и удалении центрального элемента быстрее оказался ArrayList, т.к. данная операция включает в себя поиск по индексу, а перекопирование массива в стандартной реализации работает довольно быстро. Добавление в конец также быстрее у ArrayList.
+
+							Часть 3. HashSet, LinkedHashSet и TreeSet
+Данная часть работы посвящена сравнению производительности HashSet, LinkedHashSet и TreeSet. Так как данные структуры данных не индексированы численно (кроме LinkedHashSet), по времени вставки элемента в разные части коллекции (начало, середина, конец) сравнить их невозможно. Поэтому сравниваться они будут только на операциях добавления и удаления.
+![Image alt](https://github.com/black20lion/Images/blob/main/HashSetTable.png)
+
+Таблица 4. Время работы HashSet для основных операций
+![Image alt](https://github.com/black20lion/Images/blob/main/LinkedHashSetTable.png)
+
+Таблица 5. Время работы LinkedHashSet для основных операций
+![Image alt](https://github.com/black20lion/Images/blob/main/TreeSetTable.png)
+
+Таблица 6. Время работы TreeSet для основных операций
+
