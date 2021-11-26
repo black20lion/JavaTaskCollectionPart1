@@ -136,5 +136,13 @@
 ![Image alt](https://github.com/black20lion/Images/blob/main/Table12.png)
 
 					Таблица 9. Время работы TreeMap для основных операций
+					
+![Image alt](https://github.com/black20lion/Images/blob/main/Graph12.png)
+
+		Рисунок 15. Сравнение производительности HashMap, LinkedHashMap и TreeMap на операции добавления
+		
+![Image alt](https://github.com/black20lion/Images/blob/main/Graph13.png)
+
+		Рисунок 16. Сравнение производительности HashMap, LinkedHashMap и TreeMap на операции удаления
 
 
