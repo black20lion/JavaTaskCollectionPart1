@@ -71,7 +71,7 @@
 
 ![Image alt](https://github.com/black20lion/Images/blob/main/Table3.png)
 
-						Таблица 3. Время работы ArrayList для основных операций
+					Таблица 3. Время работы ArrayList для основных операций
 ![Image alt](https://github.com/black20lion/Images/blob/main/ArrayGraph1.png)
 
 			Рисунок 7. Сравнение производительности LinkedList и ArrayList на операции добавления
@@ -127,14 +127,14 @@
 
 ![Image alt](https://github.com/black20lion/Images/blob/main/Table10.png)
 
-						Таблица 4. Время работы HashMap для основных операций
+					Таблица 7. Время работы HashMap для основных операций
 
 ![Image alt](https://github.com/black20lion/Images/blob/main/Table11.png)
 
-						Таблица 5. Время работы LinkedHashMap для основных операций
+					Таблица 8. Время работы LinkedHashMap для основных операций
 
 ![Image alt](https://github.com/black20lion/Images/blob/main/Table12.png)
 
-						Таблица 6. Время работы TreeMap для основных операций
+					Таблица 9. Время работы TreeMap для основных операций
 
 
